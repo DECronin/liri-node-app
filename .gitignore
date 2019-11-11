@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# added specifically for homework
+node_modules
+.DS_Store
+.env
