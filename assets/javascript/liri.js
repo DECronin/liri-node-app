@@ -11,3 +11,12 @@ var spotify = new Spotify(keys.spotify);
 //for (x in keys){
     // JSON.stringify();
 // }
+switch(process.argv[2]){
+    case 'concert-this': queryUrl = ''; break;
+    case 'concert-this': queryUrl = ''; break;
+    case 'concert-this': queryUrl = ''; break;
+    case 'concert-this': queryUrl = ''; break;
+    default: console.log('Please give an apropriate command.');
+}
+
+axios.get(queryUrl).then()
