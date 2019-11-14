@@ -1,21 +1,32 @@
 require("dotenv").config();
-var keys = require("./keys.js");
-var spotify = new Spotify(keys.spotify);
+const axios = require("axios");
+const keys = require("./keys.js");
+let webAddress;
+let queryParams;
+let queryUrl = `http://www.${webAddress}.com/?${queryParams}`;
 
-// Make it so liri.js can take in one of the following commands:
-// concert-this
-// spotify-this-song
-// movie-this
-// do-what-it-says
-
-//for (x in keys){
-    // JSON.stringify();
+// for (x in keys){
+//     JSON.stringify();
 // }
+
 switch(process.argv[2]){
-    case 'concert-this': queryUrl = ''; break;
-    case 'concert-this': queryUrl = ''; break;
-    case 'concert-this': queryUrl = ''; break;
-    case 'concert-this': queryUrl = ''; break;
+    case 'concert-this': webAddress = '';
+        webAddress = ''; 
+        queryParams = '';
+        break;
+    case 'spotify-this-song': 
+        webAddress = ''; 
+        queryParams = '';
+        // var spotify = new Spotify(keys.spotify);
+        break;
+    case 'movie-this': webAddress = '';
+        webAddress = ''; 
+        queryParams = '';
+        break;
+    case 'do-what-it-says': webAddress = '';
+        webAddress = ''; 
+        queryParams = '';
+        break;
     default: console.log('Please give an apropriate command.');
 }
 
