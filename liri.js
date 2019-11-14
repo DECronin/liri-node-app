@@ -8,8 +8,7 @@ let queryParams;
 // for (x in keys){
 //     JSON.stringify();
 // }
-var Spotify = require('../../node-spotify-api');
-var spotify = new Spotify(keys.spotify);
+// var spotify = new Spotify(keys.spotify);
 
 switch (process.argv[2]) {
     case 'concert-this': webAddress = '';
