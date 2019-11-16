@@ -9,6 +9,11 @@ exports.imdb = {
   key: '96fd9cbd'
 };
 
+exports.bands = {
+  provider: "trilogy",
+  apiKey: "codingbootcamp"
+}
+
 
 
 // exports.spotify = {
