@@ -5,15 +5,11 @@ exports.spotify = {
   secret: process.env.b0a6bb6df122452598618386b424ad48
 };
 
-// exports.spotify = {
-//   id: process.env.SPOTIFY_ID,
-//   secret: process.env.SPOTIFY_SECRET
-// };
+exports.imdb = {
+  key: '96fd9cbd'
+};
 
-// exports.spotify = {
-//   id: process.env.SPOTIFY_ID,
-//   secret: process.env.SPOTIFY_SECRET
-// };
+
 
 // exports.spotify = {
 //   id: process.env.SPOTIFY_ID,
