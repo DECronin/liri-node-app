@@ -13,7 +13,7 @@ var spooph = `https://accounts.spotify.com/v1/?search='icon+for+hire'`;
 
 switch (process.argv[2]) {
     case 'concert-this':
-        let url = 'https://rest.bandsintown.com/artists/celine+dion/events?app_id=codingbootcamp';
+        let url = `https://rest.bandsintown.com/artists/${process.argv.slice(3).join('+')}/events?app_id=codingbootcamp`;
         axios.get(url).then(function (res) {
             console.log(`Venue Name: ${res.data[0].venue.name}\nLocation: ${res.data[0].venue.city}, ${res.data[0].venue.country}\nEvent Date: ${moment(res.data[0].datetime).format('MMMM Do YYYY, h:mm a')}`);
         });
