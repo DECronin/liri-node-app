@@ -26,8 +26,7 @@ switch (process.argv[2]) {
     case 'movie-this': 
         url = `https://www.omdbapi.com/?t=${process.argv.slice(3).join('+') || 'mr+nobody'}&apikey=trilogy`
         axios.get(url).then(function (res) {
-            console.log(res.data);
-            // console.log(`Movie Title: ${res.data}\nRelease Year: ${res.data}\nIMDB Rating: ${res.data}\nRotten Tomatoes Rating: ${}\nProduction Country: ${}\nOriginal Language: ${}\nPlot: ${}\nActors: ${}`);
+            console.log(`Movie Title: ${res.data.Title}\nRelease Year: ${res.data.Year}\nIMDB Rating: ${res.data.Ratings[0].Value}\nRotten Tomatoes Rating: ${res.data.Ratings[1].Value}\nCountry(s): ${res.data.Country}\nOriginal Language: ${res.data.Language}\nPlot: ${res.data.Plot}\nActors: ${res.data.Actors}`);
         });
         break;
     case 'do-what-it-says': 
