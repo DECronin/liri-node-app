@@ -15,18 +15,22 @@ switch (process.argv[2]) {
         });
         break;
     case 'spotify-this-song': console.log('spotify ================================================');
-        spotify.search({ type: 'track', query: process.argv.slice(3).join(' ') || 'All the Small Things'}, function(err, data) {
+        spotify.search({ type: 'track', query: process.argv.slice(3).join(' ') || 'The Sign'}, function(err, data) {
             if (err) {
                 return console.log('Error occurred: ' + err);
             }
-            console.log(data); 
+            console.log(`Artists(s): ${data.tracks.items[0].album.artists[0].name}\nSong Name: ${data.tracks.items[0].name}\nAlbumn: ${data.tracks.items[0].album.name}\nPreview Link: ${data.tracks.items[0].external_urls.spotify}`);
         });
         break;
     case 'movie-this': 
 
         break;
     case 'do-what-it-says': 
-        
+        // let dataBuffer = fs.readFileSync('random.txt');
+        // let parse = dataBuffer.toString();
+        // let data = parse.split(',');
+        // command = data[0];
+        // commandData = data[1];
         break;
     default: console.log('Please give an apropriate command.'); break;
 }
