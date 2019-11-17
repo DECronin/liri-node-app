@@ -5,9 +5,6 @@ let webAddress;
 let queryParams;
 let queryUrl = `http://www.${webAddress}.com/${queryParams}`;
 
-// for (x in keys){
-//     JSON.stringify();
-// }
 // var spotify = new Spotify(keys.spotify);
 // queryURL = `https://rest.bandsintown.com/artists/` + artist + "?app_id=codingbootcamp";
 
@@ -40,8 +37,8 @@ switch (process.argv[2]) {
 }
 
 function calling(url){
-console.log('ppppp');
-axios.get(url).then(function(response){
-    console.log('CONNECTEDDDDD' + response.data)
-})
+    console.log('ppppp');
+    axios.get(url).then(function(response){
+        console.log('CONNECTEDDDDD' + response.data)
+    })
 }
