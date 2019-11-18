@@ -9,7 +9,7 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 1) Open GitBash or your preferance of Terminol
 2) Navigate to this Repo's Directory
 3) On a SINGLE comand line type out: 
-* node liri.js _command_ _choice_
+* node liri.js _command_ _choice_ ++ENTER
 * ##### Replace _command_ with one of the following:
     * ##### (Replace _choice_ with your choice of something to search with the command)
 * spotify-this-song
