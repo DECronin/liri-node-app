@@ -10,8 +10,8 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 2) Navigate to this Repo's Directory
 3) On a SINGLE comand line type out: 
 * node liri.js _command_ _choice_
-* ###### Replace _command_ with one of the following:
-    * ###### (Replace _choice_ with your choice of something to search with the command)
+* ##### Replace _command_ with one of the following:
+    * ##### (Replace _choice_ with your choice of something to search with the command)
 * spotify-this-song
     * (This will search your _choice_ song in spotify and display returned/relevant data)
 * movie-this
