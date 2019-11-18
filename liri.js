@@ -7,7 +7,6 @@ let Spotify = require('node-spotify-api');
 let spotify = new Spotify(keys.spotify);
 let url = '';
 search();
-let logging = '';
 function search(){
     switch (process.argv[2]) {
         case 'do-what-it-says': 
