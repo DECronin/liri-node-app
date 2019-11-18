@@ -26,6 +26,6 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 
 
 4) Include screenshots, gifs or videos of the app functioning
-5) Contain a link to a deployed version of the app
+5) Contain a link to a deployed version of the app ( video or gif?)
 6) Clearly list the technologies used in the app
 7) State your role in the app development
