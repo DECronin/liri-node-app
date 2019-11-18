@@ -3,6 +3,8 @@
 ### Problem / Concept:
 This Application's purpose is similar to Google's Siri in the sense of taking in a command (from a terminol's comand-line instead of speech/voice-recognition) and acting apropriately upon the command.
 
+##### _This is orgoinized with a Switch-Statement taking in the command to send the apropriate url-choice with a function to log.txt each command with it's result_
+
 #### Instructions:
 1) Open GitBash or your preferance of Terminol
 2) Navigate to this Repo's Directory
@@ -23,8 +25,6 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 
 
 
-
-2) Give a high-level overview of how the app is organized
 4) Include screenshots, gifs or videos of the app functioning
 5) Contain a link to a deployed version of the app
 6) Clearly list the technologies used in the app
