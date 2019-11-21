@@ -1,14 +1,14 @@
 # [Liri-Node App](https://decronin.github.io/liri-node-app/)
 #### [Dana Cronin:](https://decronin.github.io/)
-~ Page Developer/Programmer tasked with taking the given probelm(s) and its(their) requirement-guidelines to create, form, link and test the application's initial-files as well as logic-functionality between the user's front-end-terminol with node's package(s) and API(s) in the back end.
+~ Page Developer/Programmer tasked with taking the given probelm(s) and its(their) requirement-guidelines to create, form, link and test the application's initial-files as well as logic-functionality between the user's front-end-terminal with node's package(s) and API(s) in the back end.
 
 ### [Problem / Concept:](https://github.com/UCF-Coding-Boot-Camp/UCF-LKM-FSF-PT-08-2019-U-C/blob/master/10-nodejs/02-Homework/Instructions/homework_instructions.md)
-This Application's purpose is similar to Google's Siri in the sense of taking in a command (from a terminol's comand-line instead of speech/voice-recognition) and acting apropriately upon the command.
+This Application's purpose is similar to Google's Siri in the sense of taking in a command (from a terminal's comand-line instead of speech/voice-recognition) and acting apropriately upon the command.
 
 ##### _This is orgoinized with a Switch-Statement taking in the command to send the apropriate url-choice with a function to log.txt each command with it's result_
 
 #### Instructions:
-1) Open GitBash or your preferance of Terminol
+1) Open GitBash or your preferance of Terminal
 2) Navigate to this Repo's Directory
 3) On a SINGLE comand line type out: 
 * node liri.js _command_ _choice_ ++ENTER
