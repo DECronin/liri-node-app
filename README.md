@@ -1,4 +1,6 @@
 # liri-node-app
+#### [Dana Cronin:](https://decronin.github.io/)
+Page Developer tasked with taking the probelm and it's requirements/guidelines to create, form and test the app's files as well as logic-functionality.
 
 ### Problem / Concept:
 This Application's purpose is similar to Google's Siri in the sense of taking in a command (from a terminol's comand-line instead of speech/voice-recognition) and acting apropriately upon the command.
@@ -21,11 +23,18 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 * do-what-it-says
     * (Leave _choice_ blank and this will read the random.txt file to return the results for one of the other 3 commands)
 
+### Examples:
 
 
-
-
-4) Include screenshots, gifs or videos of the app functioning
-5) Contain a link to a deployed version of the app
-6) Clearly list the technologies used in the app
-7) State your role in the app development
+##### _Technologies Used:_
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Node.js](https://nodejs.org/en/)
+* [Axios NPM](https://www.npmjs.com/package/axios)
+* [Spotify API & NPM](https://www.npmjs.com/package/node-spotify-api)
+* [BandsInTown API](https://www.artists.bandsintown.com/login)
+* [OMDB API]http://www.omdbapi.com/()
+* [Moment NPM](https://www.npmjs.com/package/moment)
+* [DotEnv NPM](https://www.npmjs.com/package/dotenv)
+* _[Screencastify](https://www.screencastify.com/)_
+* _[EzGif.com](https://ezgif.com/)_
+* _[MediaConverterOnline](https://www.mediaconverteronline.com/)_
