@@ -1,8 +1,8 @@
-# liri-node-app
+# [Liri-Node App]()
 #### [Dana Cronin:](https://decronin.github.io/)
 Page Developer tasked with taking the probelm and it's requirements/guidelines to create, form and test the app's files as well as logic-functionality.
 
-### Problem / Concept:
+### [Problem / Concept:](https://github.com/UCF-Coding-Boot-Camp/UCF-LKM-FSF-PT-08-2019-U-C/blob/master/10-nodejs/02-Homework/Instructions/homework_instructions.md)
 This Application's purpose is similar to Google's Siri in the sense of taking in a command (from a terminol's comand-line instead of speech/voice-recognition) and acting apropriately upon the command.
 
 ##### _This is orgoinized with a Switch-Statement taking in the command to send the apropriate url-choice with a function to log.txt each command with it's result_
@@ -26,7 +26,7 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 ### Examples:
 
 
-##### _Technologies Used:_
+#### _Technologies Used:_
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Node.js](https://nodejs.org/en/)
 * [Axios NPM](https://www.npmjs.com/package/axios)
