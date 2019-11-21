@@ -32,7 +32,7 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 * [Axios NPM](https://www.npmjs.com/package/axios)
 * [Spotify API & NPM](https://www.npmjs.com/package/node-spotify-api)
 * [BandsInTown API](https://www.artists.bandsintown.com/login)
-* [OMDB API]http://www.omdbapi.com/()
+* [OMDB API](http://www.omdbapi.com/)
 * [Moment NPM](https://www.npmjs.com/package/moment)
 * [DotEnv NPM](https://www.npmjs.com/package/dotenv)
 * _[Screencastify](https://www.screencastify.com/)_
