@@ -1,6 +1,6 @@
 # [Liri-Node App](https://decronin.github.io/liri-node-app/)
 #### [Dana Cronin:](https://decronin.github.io/)
-Page Developer tasked with taking the probelm and it's requirements/guidelines to create, form and test the app's files as well as logic-functionality.
+~ Page Developer/Programmer tasked with taking the given probelm(s) and its(their) requirement-guidelines to create, form, link and test the application's initial-files as well as logic-functionality between the user's front-end-terminol with node's package(s) and API(s) in the back end.
 
 ### [Problem / Concept:](https://github.com/UCF-Coding-Boot-Camp/UCF-LKM-FSF-PT-08-2019-U-C/blob/master/10-nodejs/02-Homework/Instructions/homework_instructions.md)
 This Application's purpose is similar to Google's Siri in the sense of taking in a command (from a terminol's comand-line instead of speech/voice-recognition) and acting apropriately upon the command.
