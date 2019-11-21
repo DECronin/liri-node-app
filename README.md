@@ -30,7 +30,7 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
 ![movie](./media/movie-this.gif)
 ![log](./media/log-appendage.gif)
 
-#### _Technologies Used:_
+#### Technologies & Resources Used:
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Node.js](https://nodejs.org/en/)
 * [Axios NPM](https://www.npmjs.com/package/axios)
