@@ -24,7 +24,11 @@ This Application's purpose is similar to Google's Siri in the sense of taking in
     * (Leave _choice_ blank and this will read the random.txt file to return the results for one of the other 3 commands)
 
 ### Examples:
-
+![spotify](./media/spotify-this.gif)
+![random-text](./media/do-what-it-says.gif)
+![concert](./media/concert-this.gif)
+![movie](./media/movie-this.gif)
+![log](./media/log-appendage.gif)
 
 #### _Technologies Used:_
 * [Visual Studio Code](https://code.visualstudio.com/)
